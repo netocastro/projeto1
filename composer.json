@@ -1,0 +1,26 @@
+{
+    "name": "neto/projeto1",
+    "description": "Primeiro projeto",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Source\\": "src/"
+        },
+        "files": [
+            "src/Core/Config.php",
+            "src/Core/Functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "netocastro",
+            "email": "netocastrotec@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "stonks/router": "^1.0",
+        "stonks/datalayer": "1.0.*"
+    }
+}

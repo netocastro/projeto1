@@ -1,0 +1,34 @@
+{
+	"name": "stonks/datalayer",
+	"description": "O DataLayer é um componente para abstração de persistência para banco de dados, que usa PDO com prepared statements.",
+	"keywords": [
+		"Stonks",
+		"Database",
+		"PDO",
+		"Save",
+		"Delete",
+		"Destroy",
+		"CRUD"
+	],
+	"type": "library",
+	"license": "MIT",
+	"homepage": "https://github.com/giovannialo/datalayer",
+	"authors": [
+		{
+			"name": "Giovanni A. L. Oliveira",
+			"email": "giovanni.al.oliveira@gmail.com",
+			"role": "Developer",
+			"homepage": "https://github.com/giovannialo"
+		}
+	],
+	"minimum-stability": "stable",
+	"autoload": {
+		"psr-4": {
+			"Stonks\\DataLayer\\": "src/"
+		}
+	},
+	"require": {
+		"php": "^7.2",
+		"ext-pdo": "*"
+	}
+}

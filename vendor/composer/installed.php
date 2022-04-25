@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'type' => 'project',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => 'aab5a569fd99128800bbbd6d0ed890829d6e406c',
+        'name' => 'neto/projeto1',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'neto/projeto1' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => 'aab5a569fd99128800bbbd6d0ed890829d6e406c',
+            'dev_requirement' => false,
+        ),
+        'stonks/datalayer' => array(
+            'pretty_version' => '1.0.2',
+            'version' => '1.0.2.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../stonks/datalayer',
+            'aliases' => array(),
+            'reference' => '10a0dbe107a35fccfc60c66d0e287e92c6d13060',
+            'dev_requirement' => false,
+        ),
+        'stonks/router' => array(
+            'pretty_version' => '1.0.1',
+            'version' => '1.0.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../stonks/router',
+            'aliases' => array(),
+            'reference' => '089d09fe445bfa483f14a2269d1360ac65ddb4d8',
+            'dev_requirement' => false,
+        ),
+    ),
+);
